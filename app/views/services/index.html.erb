@@ -1,0 +1,71 @@
+<h3>services</h3>   
+      
+        <div>   
+          <%= link_to 'Add Service', new_service_path %>   
+        </div>   
+        <br>   
+        
+      <table class="table table-bordered table-striped">   
+        <tr>   
+          <th>id</th>   
+          <th>Name</th>   
+          <th>Status</th>   
+          <th>cost</th>  
+          
+          <th>amount paid</th> 
+
+          <th>amount due</th>
+          <th>amount paid</th>
+          <th>maintainance_cost </th>
+          <th>Total_cost</th>
+          
+        </tr>   
+        
+        <% @services.each do |service| %>   
+            <tr>  
+              <td><%= service.id %></td>  
+              <td><%= service.service_name %></td>   
+              <td><%= service.service_status %></td> 
+              
+              <td><%= service.service_cost %></td> 
+              <td><%= service.service_startdate %></td> 
+
+              <td><%= service.service_enddate %></td> 
+              <td><%= service.amount_paid %></td> 
+
+              <td><%= service.amount_due %></td> 
+              <td><%= service.maintainance_cost %></td> 
+              <td><%= service.Total_cost %></td> 
+              
+                
+            </tr>   
+        <% end %>   
+
+      <h1>services</h1>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Car Washing</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="1" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<br>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Repair</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="2" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">service</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="3" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </table>  

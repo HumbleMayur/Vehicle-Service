@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  names_id: one
+  cust_id: one
+  service_startdate: 2022-07-20
+  service_enddate: 2022-07-20
+  amount_paid: 1.5
+  amount_due: 1.5
+  total_amount: 1.5
+
+two:
+  names_id: two
+  cust_id: two
+  service_startdate: 2022-07-20
+  service_enddate: 2022-07-20
+  amount_paid: 1.5
+  amount_due: 1.5
+  total_amount: 1.5

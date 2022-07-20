@@ -1,0 +1,42 @@
+<h1>/Users/makumar/Desktop/Vehicle_service/Vehicle/app/views/employees/index.html.erb</h1>
+
+  <p style="color: green"><%= notice %></p>
+
+<h1>Names</h1>
+
+<div id="names">
+  <% @names.each do |name| %>
+    <p>
+    <strong>Service name:</strong>
+    <%= name.service_name %>
+  </p>
+
+  <p>
+    <strong>Service cost:</strong>
+    <%= name.service_cost %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= name.description %>
+  </p>
+    <p>
+      <%= link_to "more", "/names" %>
+    </p>
+
+
+    <td>
+    <%= form_for @names do |f|%>
+    <%= f.hidden_field :Names, value => names.id %>
+    <%= f.number_field :quantity, value => 1, :min => 1%>
+    <%= f.submit "add service"%>
+    
+  <% end  %>
+  </td>  
+  <% end  %>
+</div>
+
+
+"employees#index"
+
+

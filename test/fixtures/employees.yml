@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emp_id: 1
+  emp_type: MyString
+  emp_name: MyString
+  emp_DOB: 2022-07-07
+  services_assigned: 1
+
+two:
+  emp_id: 1
+  emp_type: MyString
+  emp_name: MyString
+  emp_DOB: 2022-07-07
+  services_assigned: 1

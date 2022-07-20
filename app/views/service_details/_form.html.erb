@@ -1,0 +1,28 @@
+<h1>ServiceDetails#index</h1>
+<p>Find me in app/views/service_details/index.html.erb</p>
+
+
+<%= form_with(model: @service_detail) do |form| %>
+  
+
+  <div>
+    <%= form.label :Service_name, style: "display: block" %>
+    <%= form.text_field :service_name %>
+  </div>
+
+  <div>
+    <%= form.label :Service_cost, style: "display: block" %>
+    <%= form.text_field :service_cost %>
+  </div>
+
+  <div>
+    <%= form.label :Description, style: "display: block" %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+  

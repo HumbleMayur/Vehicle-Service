@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  service_id: 1
+  service_name: MyString
+  service_status: MyString
+  service_cost: MyString
+  service_startdate: 2022-07-07 13:03:24
+  service_enddate: 2022-07-07 13:03:24
+  amount_paid: 1.5
+  amount_due: 1.5
+  maintainance_cost: 1.5
+  Total_cost: 1.5
+
+two:
+  service_id: 1
+  service_name: MyString
+  service_status: MyString
+  service_cost: MyString
+  service_startdate: 2022-07-07 13:03:24
+  service_enddate: 2022-07-07 13:03:24
+  amount_paid: 1.5
+  amount_due: 1.5
+  maintainance_cost: 1.5
+  Total_cost: 1.5
